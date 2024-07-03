@@ -1,0 +1,112 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin: auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img{
+  height: 60px;
+  width: 90px;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  align-items: center;
+  text-align: center;
+}
+.nav-links li {
+  color: black;
+  font-size: 15px;
+  padding: 10px 10px;
+  margin:  0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.hero {
+  text-align: center;
+  margin-top: 15%;
+}
+.hero h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.mobile-menu-icon {
+  display: none;
+}
+button {
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+}
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    left: 35px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    color: black;
+    background-color: white;
+  }
+  ul .li {
+    padding: 7px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    color: black;
+    margin: auto;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 20px;
+    color: black;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+} 
+.btns{
+  border: 2px solid green;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: green;
+  border-radius: 6px;
+}

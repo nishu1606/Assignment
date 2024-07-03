@@ -1,0 +1,39 @@
+
+   .tabs-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    position: relative;
+  }
+  
+  .tab-buttons button {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: white;
+    
+  }
+  
+  .tab-buttons button.active {
+    font-weight: bold;
+    color: orange; /* Example: Change color for active tab */
+  }
+  
+  .underline {
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background-color: orange; /* Example: Underline color */
+    transition: left 0.3s ease;
+  }
+  .ul{
+    color: white;
+  }

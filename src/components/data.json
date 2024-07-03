@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "image": "Group 33.png",
+      "content" : "Select Your Role and Sign Up" 
+    },
+    {
+        "id": 2,
+        "image": "document (1) 1.png" ,
+        "content" : "Buyers Post Your Requirements" 
+      },
+      {
+        "id": 3,
+        "image": "Layer_x0020_1.png" ,
+        "content" : "Review, Select, and Contact the Best Suppliers" 
+      },
+      {
+        "id": 4,
+        "image": "edit (1) 1.png" ,
+        "content" : "Suppliers Complete your profile and get notified for opportunities" 
+      },
+      {
+        "id": 5,
+        "image": "quote-request 1.png" ,
+        "content" : "Contact to Buyers and Share your Quote for the service" 
+      },
+      {
+        "id": 6,
+        "image": "Group.png" ,
+        "content" : "Both the Parties can Connect and Make Business Leave a Feedback" 
+      }
+]
